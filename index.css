@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 24px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #22577a;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.average-rate {
+  text-align: center;
+  font-weight: bold;
+  color: #168aad;
+  margin-bottom: 18px;
+}
+
+.freelancer-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.freelancer-list .freelancer-header,
+.freelancer-list .freelancer-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.freelancer-list .freelancer-header {
+  border-bottom: 2px solid #bcd0e0;
+  font-weight: bold;
+  color: #22577a;
+  background: #f0f4f8;
+}
+
+.freelancer-list .freelancer-row {
+  border-bottom: 1px solid #e0e6ed;
+}
+
+.freelancer-list .freelancer-row:last-child {
+  border-bottom: none;
+}
+
+.freelancer-name {
+  color: #22577a;
+  padding-left: 12px;
+}
+
+.freelancer-occupation {
+  color: #444;
+}
+
+.freelancer-rate {
+  color: #168aad;
+  font-weight: bold;
+}
